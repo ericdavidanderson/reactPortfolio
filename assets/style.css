@@ -1,0 +1,76 @@
+
+/* --true-blue: #0466c8ff;
+--usafa-blue: #0353a4ff;
+--dark-cornflower-blue: #023e7dff;
+--oxford-blue: #002855ff;
+--oxford-blue-2: #001845ff;
+--oxford-blue-3: #001233ff;
+--independence: #33415cff;
+--black-coral: #5c677dff;
+--roman-silver: #7d8597ff;
+--manatee: #979dacff; */
+
+:root {
+    background-color:#33415cff ;
+    --main-bg-color: #C6C5B9;
+    --main-border-color:#393d3f;
+}
+
+}
+
+header {
+    border-width: 50px; 
+    border-color: #023e7dff;
+padding: 50px;
+font-style:inherit;
+background-color: #7d8597ff;
+box-shadow:rgb(65, 119, 11);
+border-radius: 15%;
+border-bottom: #001233ff;
+box-decoration-break: clone;
+display:flex;
+flex-direction: row;
+
+}
+
+h1 {
+
+    margin-left: 10%;
+    font-size: 50px;
+    color: rgb(184, 28, 28);
+    display: inline-block;
+    display:flex;
+flex-direction: row;
+
+}
+
+.Links {
+   rgb (25, 0, 255); 
+   color:rgb(44, 49, 45);
+    background-color: #7d8597ff;
+    font-weight: 600;
+    font-size: 30px;
+     /* display: flex; */
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    /* width: 100% */
+    margin-left: 2%
+    margin-right 200px;
+    font-style:oblique;
+    display:flex;
+flex-direction: column-reverse;
+
+   
+    
+   
+}
+
+ul {
+    color:#33415cff;
+}
+
+.ul {
+     list-style-type: none;
+   text-decoration: none;
+   color:blue;
+   font-size: 5rem;
