@@ -1,15 +1,7 @@
-import Header from './Component/Header';
+import React from "react";
+import PortfolioWrap from "./Component/PortfolioWrap";
+import "./App.css";
 
-
-import './App.css';
-
-function App() {
-  return (
-    <div>
-      <Header />
-      
-    </div>
-  );
-}
+const App = () => <PortfolioWrap />;
 
 export default App;
