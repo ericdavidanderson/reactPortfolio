@@ -1,4 +1,7 @@
 import React from "react";
+import Portfolio from "./Portfolio";
+import Contact from "./Contact";
+import About from "./About";
 
 export default function Navigation() {
   return (
