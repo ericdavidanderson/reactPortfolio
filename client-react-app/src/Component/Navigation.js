@@ -2,7 +2,7 @@ import React from "react";
 
 function Navigation({ currentPage, handlePageChange}) {
   return (
-    <ul className="nav tab">
+    <ul className="row">
       <li className="nav-item">
         <a 
         href="#About" 
@@ -10,14 +10,14 @@ function Navigation({ currentPage, handlePageChange}) {
           About
         </a>
       </li>
-      <li className="nav-item">
+      <li className="column">
         <a 
         href="#Portfolio" 
         onClick={() => handlePageChange("Portfolio")}>
           Portfolio
         </a>
       </li>
-      <li className="nav-item">
+      <li className="column">
         <a 
         href="#Contact"
          onClick={() => handlePageChange("Contact")}>
